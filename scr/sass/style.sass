@@ -1,0 +1,635 @@
+@import "resets.scss"
+@import "normalizez.scss"
+    
+*
+    box-sizing: border-box
+
+
+@font-face 
+    font-family: "Robotoo" 
+    src: url('../fonts/Roboto-Regular.ttf')
+    font-weight: regular
+    font-style: normal
+
+body
+    height: 100%
+
+.all-contain
+    min-height: 100vh
+    display: flex
+    flex-direction: column
+
+.container
+    position: relative
+    max-width: 1124px
+    margin: 0 auto
+    
+
+.header-section
+    overflow: hidden
+    margin-bottom: 67px
+    position: relative
+    height: 72px
+    background: #FFF
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16) 
+    &__title
+        display: flex
+        flex-direction: row
+        position: absolute
+        letter-spacing: 5px
+        top: 30px
+        color: black
+        width: 119.231px
+        height: 12.308px
+        margin-top: 30px
+        margin-left: 81.38px
+    &__nav-logo
+        margin-left: 10px   
+    &__button
+        position: absolute
+        display: flex
+        left: 927px 
+        top: 20px
+        color: #F0F0F0
+        margin-top: -10px
+h1
+    font-size: 25px
+    font-family: Robotoo
+.title
+    margin: 0px
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+
+.titletwo
+    margin: 0px
+    
+.buttons
+    &__list
+        display: flex
+        flex-direction: row
+        right: 0px
+    &__second-btn
+        display: flex
+        align-items: center
+        background: #FFFFFF
+        color: black
+        border: none
+.header-a
+    color: black
+.header-sectiontwo
+    overflow: hidden
+    position: relative
+    height: 72px
+    background: #FFF
+a
+    text-decoration: none
+    
+span
+    color: #57AD56
+    margin-left: 12px
+.btn-outline-secondary
+    margin-right: 27px
+.main-section
+    overflow: hidden
+    position: relative
+    flex: 1 1 auto
+    height: 1407px
+    background: #fff
+    &__search-box
+        margin-bottom: 56px
+    &__cards-box
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
+input
+    color: #626262
+    font-family: Robotoo
+    font-size: 16px
+    font-style: normal
+    font-weight: 400
+    outline: none
+    position: relative
+    width: 1124px
+    border: none
+h2
+    color: #1D1D1D
+    font-family: Robotoo    
+    font-size: 25px
+    font-style: normal
+    font-weight: 400
+    margin-bottom: 25px
+hr
+    margin: 0px
+
+.cards-item
+    overflow: hidden
+    display: flex
+    flex-direction: column
+    margin-right: 40px
+    margin-bottom: 25px
+    &:last-child
+        margin-right: 0px
+    &__title
+        margin-bottom: 10px
+    &__first-card
+        width: 318px
+        height: 376px
+        background: #D8D8D8
+
+    &__second-card
+        width: 318px
+        height: 376px
+        background: #D8D8D8
+
+    &__third-card
+        width: 318px
+        height: 376px
+        background: #D8D8D8
+
+    &__fourth-card
+        width: 318px
+        height: 376px
+        background: #D8D8D8
+
+    &__fifth-card
+        width: 318px
+        height: 376px
+        background: #D8D8D8
+
+    &__sixth-card
+        width: 318px
+        height: 376px
+        background: #D8D8D8
+    
+    &__seventh-card
+        width: 318px
+        height: 376px
+        background: #D8D8D8
+
+    &__the-8th-card
+        width: 318px
+        height: 376px
+        background: #D8D8D8
+
+
+    &__ninth-card
+        width: 318px
+        height: 376px
+        background: #D8D8D8
+    &__cards-img
+        overflow: hidden
+        width: 317.935px
+        height: 256px
+        margin-bottom: 16px
+    &__img
+        width: 325.935px
+        height: 300px
+        margin-bottom: 16px
+        display: inline-block
+        transition: 1.3s
+        
+
+.cards-item img:hover 
+    transform: scale(1.1)
+.cards-item
+    &__text
+        display: flex
+        flex-direction: column
+        align-items: start
+    &__main-text
+        color: #626262
+        font-family: Robotoo
+        font-size: 14px
+        font-style: normal
+        font-weight: 400
+        margin-bottom: 6px
+    &__span
+        color: #1D1D1D
+        font-family: Robotoo
+        font-size: 13px
+        font-style: normal
+        font-weight: 400
+        padding-top: 10px
+        margin-left: 0px
+        display: flex
+        align-items: start
+h3
+    color: #1D1D1D
+    font-family: Robotoo
+    font-size: 16px
+    font-style: normal
+    font-weight: 400
+    margin-bottom: 6px
+
+.footer-section
+    overflow: hidden
+    height: 552px
+    background: #262626
+    &__green-button
+        position: fixed
+        display: inline
+        right: 16px
+        bottom: 24px
+        z-index: 3
+    &__title
+        color: white
+        font-size: 40px
+        letter-spacing: 11px
+        padding-top: 56px 
+    &__hashteg
+        margin-bottom: 17px
+        padding: 0
+    &__hashteg-text
+        color: #fff
+        font-family: Robotoo
+        font-size: 16px
+        margin-bottom: 17px
+    &__footer-box
+        display: flex
+        flex-direction: row
+        margin-bottom: 48px
+    &__applications
+        display: flex
+        flex-direction: row
+        margin-left: 421px
+    &__end-section
+        display: flex
+        flex-direction: row
+        
+
+.footer-group
+    overflow: hidden
+    &__first-foot
+        margin-right: 97px
+   
+.footer-hr
+    overflow: hidden
+    margin: 0 auto
+    width: 1124px
+    height: 1px
+    margin-top: 40.31px
+    margin-bottom: 32px
+    background: #FFFFFF
+
+.btn-group
+    overflow: hidden
+    margin-bottom: 33px
+    border-radius: 5px
+    width: 227px
+    height: 40px
+    background: #3B3B3B
+
+.arrow-down
+    position: absolute
+    right: 10px // Расположение справа
+    top: 50%
+    transform: translateY(-50%)
+    width: 0
+    height: 0
+    border-left: 6px solid transparent
+    border-right: 6px solid transparent
+    border-top: 6px solid white
+    transition: transform 0.2s ease
+
+.language-button
+    overflow: hidden
+    background-color: #3B3B3B
+    border: none
+    margin-left: 10px
+    &__text
+        margin-left: 48px
+        font-size: 13px
+        color: #fff
+        
+       
+
+.dropdown
+    position: relative
+
+
+.language-select
+    overflow: hidden
+    width: 227px
+    display: none
+    position: absolute
+    min-width: 100px
+    top: 100% 
+    left: 50%
+    transform: translateX(-50%)
+    z-index: 1
+    background-color: #262626
+
+.language-options
+    text-decoration: none
+    text-align: center
+    display: block
+    padding: 10px 15px
+    color: #fff
+    font-size: 13px
+
+.language-option:hover
+    background-color: #3B3B3B
+    border-radius: 5px
+    color: #fff
+
+a
+    text-decoration: none
+    text-align: center
+    display: block
+    padding: 10px 15px
+    color: #fff
+    font-size: 13px
+
+.world-img
+    position: absolute
+    width: 15.719px
+    height: 15.719px
+    margin-top: 12.14px
+    margin-left: 16px
+            
+.social-icones
+    padding: 0
+    display: inline
+    top: 258px
+    margin-right: 12px
+    &:last-child
+        margin-right: 0px
+
+footer-section__partnership
+    position: absolute
+    
+.partners
+    top: 156px
+    right: 647px
+    color: #FFF
+    font-family: Robotoo
+    font-size: 13px
+    
+
+.partnerships
+    padding: 0 
+    margin-bottom: 23px 
+    text-align: left
+
+.end-informat
+    padding: 0
+    color: #FFF
+    font-family: Robotoo
+    font-size: 13px
+    margin-bottom: 23px
+    margin-left: 128px
+    text-align: left
+    &:last-child
+        margin-bottom: 0
+
+.footer-hr
+    opacity: .25
+.last-hr
+    height: 2px
+    margin-bottom: 40px  
+
+.application
+    padding: 0
+    margin-right: 40.34px
+    &:last-child
+        margin-right: 0px
+    left: 421px
+    margin-bottom: 39px
+    
+.end-hr
+    height: 2px
+    margin-top: 0
+
+.end-text
+    margin-right: 174px
+    &:last-child
+        margin-right: 0
+    color: #FFF
+    font-family: Robotoo
+    font-size: 11px
+
+.btn-up
+    &__back
+
+        width: 80px
+        height: 80px
+    padding: 0px
+    width: 80px
+    height: 80px
+    background-color: #59BD5A
+    border: none
+
+.arrow-up
+    align-items: center
+    text-align: center
+    width: 20px
+    height: 20px
+    position: relative
+    display: inline-flex
+    cursor: pointer
+    z-index: 3
+
+.arrow-up::before,
+.arrow-up::after
+    content: ''
+    position: absolute
+
+.arrow-up::before
+    width: 30px
+    height: 3px
+    background-color: white
+    transform: rotate(90deg)
+    top: 35px
+    right: -4.5px
+.arrow-up::after
+    width: 15px
+    height: 15px
+
+.arrow-up::after
+    border-top: 4px solid white
+    border-left: 4px solid white
+    transform: rotate(45deg)
+    top: 19px
+    right: 3.5px
+
+
+.maintwo-section
+    overflow: hidden
+    position: relative
+    flex: 1 1 auto
+    height: 1200px
+    &__tavern-sect
+        position: relative
+    
+    background: #fff
+.taverna-img
+    width: 1124px
+    height: 898.801px
+    flex-shrink: 0
+    background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat
+
+.taverna-card
+    position: absolute
+    width: 389px
+    height: 204px
+    background-color:  #FFF
+    box-shadow: (0px 0px 16px rgba(117, 117, 117, 0.20))
+    z-index: 3
+    margin-top: 80px
+    margin-left: 81px
+
+.taverna-headline
+    
+    width: 313px
+    height: 42px
+    color: #1D1D1D
+    font-family: Robotoo
+    font-size: 36px
+    margin-top: 38px
+    margin-left: 38px
+    margin-bottom: 0px
+.card-content
+    position: relative
+.taverna-btn
+    position: absolute
+    width: 100px
+    height: 32px
+    background-color: #262626
+    border-radius: 16px
+    border: none
+    margin-top: 54px
+    margin-left: 260px
+    &__txt
+        color: #FFF
+        font-family: Robotoo
+        font-size: 13px
+        
+.taverna-main-text
+    position: absolute
+    margin-left: 38px
+    margin-top: 62px
+
+.main-nav
+    position: absolute
+    width: 1124px
+    height: 80px
+    background-color: #FFF
+    box-shadow: (0px 1px 0px 0px rgba(117, 117, 117, 0.20))
+
+.maintwo-menu
+    display: flex
+    flex-direction: row
+    margin-left: 81px
+
+.menus
+    display: flex
+    align-items: center
+    justify-content: center
+    color: #327430
+    font-family: Robotoo
+    font-size: 16px
+    padding: 0px
+    height: 80px
+    width: 100px
+    transition: 0.55s
+    cursor: pointer
+
+.menus:hover
+    background-color: #8f8888
+    color: white
+
+
+
+.menu-hotdishes
+    width: 132px
+
+h6
+    color: #1D1D1D
+    font-family: Robotoo
+    font-size: 22px
+    margin-left: 81px
+    margin-top: 136px
+    margin-bottom: 32px
+
+.snacks-cards
+    position: relative
+    width: 470px
+    height: 160px
+    background-color: #ffffff
+    margin-bottom: 49px
+    border: 1.5px solid #d4caca
+    border-radius: 5px
+    &:last-child
+        margin-bottom: 0px
+.intial-snacks
+    margin-right: 16px
+.all-snacks
+    display: flex
+    flex-direction: row
+    margin-left: 81px
+    margin-bottom: 80px
+
+.snack-txt
+    color: #1D1D1D
+    font-family: Robotoo
+    font-size: 16px
+    margin-top: 16px
+    margin-left: 16px
+
+.first-snack
+    &__txt
+        display: flex
+        flex-direction: column
+.first-snack-price
+    margin-top: 66px
+    margin-left: 16px
+    color: #1D1D1D
+    font-family: Robotoo
+    font-size: 15px
+    width: 56.614px
+
+.snack-span
+    margin-top: 4px
+    margin-left: 0px
+    color: #626262
+    font-family: Robotoo
+    font-size: 13px
+
+.snack-price
+    color: #1D1D1D
+    font-family: Robotoo
+    font-size: 15px
+    width: 56.614px
+    margin-top: 83px
+    margin-left: 16px
+
+.snacks-img
+    display: inline-block
+    overflow: hidden
+    width: 170px
+    height: 160px
+    border-radius: 1.5px
+    transition: 1.3s
+    
+.snack-img-block
+    overflow: hidden
+    width: 170px
+    height: 159px
+    margin-left: 300px
+    margin-top: -131px
+    border-radius: 5px
+    
+.all-snacks img:hover 
+    transform: scale(1.1)
+
+
+@media (max-width:1124) 
+    .all-contain
+        width: 768px
+
+@media (max-width:768px)
+    .all-contain
+        width: 480px
+
+
+
